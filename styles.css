@@ -176,11 +176,10 @@
   font-size: 14px;
   font-weight: 600;
   line-height: 24px;
-  text-align: left;
   color: white;
   background-color: #00252e;
   transform: translateY(-2px);
-  padding: 27px;
+  padding: 28px;
   gap: 14px;
 }
 
