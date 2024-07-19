@@ -69,9 +69,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 14px;
+  gap: 53px;
 }
 
+.statistics-numbers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .communities-messages-style {
   width: 35px;
   margin-left: -96px;
@@ -110,8 +115,19 @@
   color: #00252e;
 }
 
+.images-tables-style {
+  width: 260px;
+}
 .images-style {
   width: 260px;
+}
+
+.bg-section-top-mobile-1 {
+  display: block;
+}
+
+.bg-section-top-desktop-1 {
+  display: none;
 }
 
 .paragraph-style {
@@ -122,6 +138,13 @@
   text-align: center;
   color: #00252e;
   width: 320px;
+}
+
+.box-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
 }
 
 .box-two-style {
@@ -230,4 +253,92 @@
 
 .instagram-style {
   margin-top: 46px;
+}
+
+#error-message {
+  display: none;
+  color: #ff4343;
+  font-size: 12px;
+}
+
+@media (min-width: 1024px) {
+  .main-header {
+    font-size: 48px;
+  }
+  .header {
+    gap: 912px;
+  }
+
+  .header-button {
+    padding: 9px 30px;
+  }
+  .header-paragraph-style {
+    width: 600px;
+    font-size: 20px;
+  }
+  .huddle {
+    width: 240px;
+  }
+
+  .button-one-style {
+    padding: 25px 99px;
+  }
+
+  .images-tables-style {
+    width: 1000px;
+  }
+
+  .statistics-style {
+    flex-direction: row;
+    gap: 341px;
+  }
+  .images-style {
+    width: 517px;
+  }
+
+  .bg-section-top-mobile-1 {
+    display: none;
+  }
+
+  .bg-section-top-desktop-1 {
+    display: block;
+  }
+
+  .box-header {
+    font-size: 40px;
+  }
+
+  .grow-together-style {
+    flex-direction: row-reverse;
+    gap: 240px;
+    padding: 80px;
+  }
+
+  .paragraph-style {
+    width: 520px;
+  }
+
+  .box-two-style {
+    flex-direction: row;
+  }
+
+  .your-users-style {
+    flex-direction: row-reverse;
+    gap: 240px;
+    padding: 80px;
+  }
+
+  .ready-style {
+    font-size: 40px;
+  }
+
+  .box-four-style:hover .subscribe-one {
+    background-color: #ff8ed7;
+  }
+
+  #error-message {
+    display: none;
+    color: #ff4343;
+    font-size: 12px;
+  }
 }

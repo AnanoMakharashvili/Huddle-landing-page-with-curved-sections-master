@@ -19,39 +19,67 @@
         in genuine discussion.
       </p>
       <button class="button-one-style">Get Started For Free</button>
-      <img src="assets/screen-mockups.svg" rel="tables" class="images-style" />
+      <img
+        src="assets/screen-mockups.svg"
+        rel="tables"
+        class="images-tables-style"
+      />
       <div class="statistics-style">
-        <img
-          src="assets/icon-communities.svg"
-          rel="communities"
-          class="communities-messages-style"
-        />
-        <img src="assets/1.4k+.png" />
-        <span class="communities-messages-span">Communities Formed</span>
-        <img
-          src="assets/icon-messages.svg"
-          rel="Messages"
-          class="communities-messages-style"
-        />
-        <img src="assets/2.7m+.png" />
-        <span class="communities-messages-span">Messages Sent</span>
+        <div class="statistics-numbers">
+          <img
+            src="assets/icon-communities.svg"
+            rel="communities"
+            class="communities-messages-style"
+          />
+          <img src="assets/1.4k+.png" />
+          <span class="communities-messages-span">Communities Formed</span>
+        </div>
+        <div class="statistics-numbers">
+          <img
+            src="assets/icon-messages.svg"
+            rel="Messages"
+            class="communities-messages-style"
+          />
+          <img src="assets/2.7m+.png" />
+          <span class="communities-messages-span">Messages Sent</span>
+        </div>
       </div>
       <div class="box-one-style">
-        <img src="assets/bg-section-top-mobile-1.svg" />
+        <img
+          src="assets/bg-section-top-desktop-1.svg"
+          rel="wave"
+          class="bg-section-top-desktop-1"
+        />
+        <img
+          src="assets/bg-section-top-mobile-1.svg"
+          rel="curved"
+          class="bg-section-top-mobile-1"
+        />
         <div class="grow-together-style">
           <img
             src="assets/illustration-grow-together.svg"
             rel="illustration-grow-together"
             class="images-style"
           />
-          <h2 class="box-header">Grow Together</h2>
-          <p class="paragraph-style">
-            Generate meaningful discussions with your audience and build a
-            strong, loyal community. Think of the insightful conversations you
-            miss out on with a feedback form.
-          </p>
+          <div class="box-contents">
+            <h2 class="box-header">Grow Together</h2>
+            <p class="paragraph-style">
+              Generate meaningful discussions with your audience and build a
+              strong, loyal community. Think of the insightful conversations you
+              miss out on with a feedback form.
+            </p>
+          </div>
         </div>
-        <img src="assets/bg-section-bottom-mobile-2.svg" />
+        <img
+          src="assets/bg-section-bottom-desktop-1.svg"
+          rel="wave"
+          class="bg-section-top-desktop-1"
+        />
+        <img
+          src="assets/bg-section-bottom-mobile-2.svg"
+          rel="curved"
+          class="bg-section-top-mobile-1"
+        />
       </div>
       <div class="box-two-style">
         <img
@@ -59,28 +87,51 @@
           rel="illustration-flowing-conversation"
           class="images-style"
         />
-        <h2 class="box-header">Flowing Conversations</h2>
-        <p class="paragraph-style">
-          You wouldn't paginate a conversation in real life, so why do it
-          online? Our threads have just-in-time loading for a more natural flow.
-        </p>
+        <div class="box-contents">
+          <h2 class="box-header">Flowing Conversations</h2>
+          <p class="paragraph-style">
+            You wouldn't paginate a conversation in real life, so why do it
+            online? Our threads have just-in-time loading for a more natural
+            flow.
+          </p>
+        </div>
       </div>
       <div class="box-three-style">
-        <img src="assets/bg-section-top-mobile-1.svg" />
+        <img
+          src="assets/bg-section-top-desktop-2.svg"
+          rel="wave"
+          class="bg-section-top-desktop-1"
+        />
+        <img
+          src="assets/bg-section-top-mobile-1.svg"
+          rel="curved"
+          class="bg-section-top-mobile-1"
+        />
         <div class="your-users-style">
           <img
             src="assets/illustration-your-users.svg"
             rel="illustration-your-users "
             class="images-style"
           />
-          <h2 class="box-header">Your Users</h2>
-          <p class="paragraph-style">
-            It takes no time at all to integrate Huddle with your app's
-            authentication solution. This means, once signed in to your app,
-            your users can start chatting immediately.
-          </p>
+          <div class="box-contents">
+            <h2 class="box-header">Your Users</h2>
+            <p class="paragraph-style">
+              It takes no time at all to integrate Huddle with your app's
+              authentication solution. This means, once signed in to your app,
+              your users can start chatting immediately.
+            </p>
+          </div>
         </div>
-        <img src="assets/bg-section-bottom-mobile-2.svg" />
+        <img
+          src="assets/bg-section-bottom-desktop-2.svg"
+          rel="wave"
+          class="bg-section-top-desktop-1"
+        />
+        <img
+          src="assets/bg-section-bottom-mobile-2.svg"
+          rel="curved"
+          class="bg-section-top-mobile-1"
+        />
       </div>
       <div class="ready-button-style">
         <h1 class="ready-style">Ready To Build Your Community?</h1>
@@ -95,7 +146,10 @@
             newsletter. We’ll never send you spam or pass on your email address
           </p>
           <input id="email-address" type="text" />
-          <button class="subscribe-button">Subscribe</button>
+          <span id="error-message">Check your email please</span>
+          <button class="subscribe-button subscribe-one" id="subscribe-button">
+            Subscribe
+          </button>
           <p class="footer-paragraph-style">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
             nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
@@ -122,5 +176,6 @@
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
