@@ -207,6 +207,12 @@
   gap: 14px;
 }
 
+.newsletter-style {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
 .footer-paragraph-style {
   font-family: Open Sans;
   font-size: 14px;
@@ -259,6 +265,14 @@
   display: none;
   color: #ff4343;
   font-size: 12px;
+}
+
+.bg-footer-top-mobile {
+  display: block;
+}
+
+.bg-footer-top-desktop {
+  display: none;
 }
 
 @media (min-width: 1024px) {
@@ -336,9 +350,23 @@
     background-color: #ff8ed7;
   }
 
+  .box-four-style {
+    flex-direction: row-reverse;
+    gap: 340px;
+    padding: 230px;
+  }
+
   #error-message {
     display: none;
     color: #ff4343;
     font-size: 12px;
+  }
+
+  .bg-footer-top-mobile {
+    display: none;
+  }
+
+  .bg-footer-top-desktop {
+    display: block;
   }
 }
